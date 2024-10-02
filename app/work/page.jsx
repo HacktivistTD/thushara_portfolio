@@ -47,7 +47,7 @@ const projects =[
     title:'project 1',
     description:'Online food order website',
     stack:[{name:"React"},{name:"Mongodb"},{name:" Express"},{name:" Node JS"},{name:"Stripe"},],
-    image:'/assets/work/thumb3.png',
+    image:'/assets/work/thumb4.png',
     Live:'',
     github:"https://github.com/HacktivistTD/Tasty.git",
     
@@ -142,30 +142,29 @@ const Work = () => {
 
                                 {projects.map((project, index) => {
                                 return <SwiperSlide key={index} className="w-full">
-                                          <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
-                                               {/* overlay */}
-                                               <div className="absolute top-0 bottom-0 w-full h-full Obg-black/
-                                                  10 z-10"></div>
-                                                    {/* image */}
-                                                    <div className="relative w-full h-full">
-                                                    <Image
-                                                        src={project.image}
-                                                        fill
-                                                        className="object-cover"
-                                                        alt="#"/>
+                                <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                                     {/* overlay */}
+                                     <div className="absolute top-0 bottom-0 w-full h-full Obg-black/
+                                        10 z-10"></div>
+                                          {/* image */}
+                                          <div className="relative w-full h-full">
+                                          <Image
+                                              src={project.image}
+                                              fill
+                                              className="object-cover"
+                                              alt="#"/>
 
-                                                    </div>
                                           </div>
-                                      </SwiperSlide>;
+                                </div>
+                            </SwiperSlide>;
                                 })}
 
                                 {/* slider buttons */}
                                 <WorkSliderBtns
-                                            containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full 
-                                              justify-between xl:w-max xl:justify-none"
-                                              btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-
-                                              [44px] h-[44px] flex justify-center items-center transition-all"  
-                                          />
+  contoinerStyles="flex gap-2 absolute right-0 bottom-[calc(10%_-_22px)] z-20 w-full justify-between xl:w-max xl:justify-none "
+  btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all duration-300 rounded-full"
+  iconsStyles="text-white text-3xl" // Define icon styles if needed
+/>
                                 </Swiper>
                   </div>
               </div>

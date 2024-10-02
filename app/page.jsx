@@ -26,16 +26,12 @@ const Home = () => {
                              Hello I'm <br />
               <span className="text-accent">Thushara Dilruksha</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
-            I am passionate about both backend and frontend development,
-             quickly adapting to new technologies. I thrive in dynamic environments,
-              working efficiently as a team member. 
-              My goal is to contribute effectively to projects while continually expanding
-              my full-stack development skills.
+            <p className="max-w-[700px] mb-9 text-white/80">
+            I am a skilled web developer specializing in the MERN stack with experience building responsive, scalable applications. My background in Computing and Information Systems, along with my practical knowledge, drives me to deliver innovative solutions. I am passionate about web development, IoT, and continuous learning, making me a valuable addition to any team.
             </p>
             
             {/* Adjusted flex container */}
-            <div className="flex items-center gap-8 mb-8 xl:mb-0">
+            <div className="flex flex-col items-center gap-8 xl:flex-row">
 
             
               <Button

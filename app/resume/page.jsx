@@ -34,7 +34,7 @@ const education = {
     {
       institute: "Telijjawila Central ",
       degree: "G.C.E Advanced Level (Physical Science Stream)",
-      duration: "2011 – 2020",
+      duration: "2019 – 2020",
     },
   ],
 };
