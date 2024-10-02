@@ -43,18 +43,20 @@ const skills = {
   title: "My skills",
   description: "Frameworks/Libraries",
   skillList: [
-    { icon: <FaHtml5 />, name: "HTML 5" },
-    { icon: <FaCss3 />, name: "CSS 3" },
-    { icon: <FaJs />, name: "JavaScript" },
-    { icon: <FaReact />, name: "React.js" },
     { icon: <SiNextdotjs />, name: "Next.js" },
-    { icon: <SiTailwindcss />, name: "Tailwind CSS" },
+    { icon: <FaReact />, name: "React.js" },
     { icon: <FaNodeJs />, name: "Node.js" },
-    { icon: <FaFigma />, name: "Figma" },
     { icon: <IoLogoFirebase />, name: "Firebase"  },
+    { icon: <SiTailwindcss />, name: "Tailwind CSS" },  
+    { icon: <FaFigma />, name: "Figma" },  
     { icon: <SiShadcnui />, name: "Shadcnui" },
     { icon: <SiMongodb />, name: "Mongodb" },
     { icon: <FaLaravel />, name: "Laravel" },
+    { icon: <FaHtml5 />, name: "HTML 5" },
+    { icon: <FaCss3 />, name: "CSS 3" },
+    { icon: <FaJs />, name: "JavaScript" },
+    
+  
 
     
   ],
