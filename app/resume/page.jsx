@@ -13,7 +13,7 @@ const about = {
   Info: [
     { fieldName: "Name", fieldValue: "Thushara Dilruksha" },
     { fieldName: "Phone", fieldValue: "(+94) 760701732" },
-    { fieldName: "Experience", fieldValue: "12yrs" },
+    { fieldName: "Experience", fieldValue: "Full Stack Developer Interns" },
     { fieldName: "Whatsapp", fieldValue: "(+94) 760701732" },
     { fieldName: "Nationality", fieldValue: "Sri Lankan" },
     { fieldName: "Email", fieldValue: "thusharadilrukshatd@gmail.com" },
